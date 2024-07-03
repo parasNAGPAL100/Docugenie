@@ -1,0 +1,19 @@
+# Ignore .env file
+.env
+
+# Ignore faiss_index folder containing embeddings
+faiss_index/
+
+# Ignore Conda environment
+venv/
+conda/
+
+# Ignore embeddings files (adjust the pattern as per your file extensions)
+embeddings/*.pkl
+
+# Ignore any other files or directories you want to exclude
+# For example, temporary files or compiled binaries
+*.log
+*.csv
+/tmp/
+/build/
